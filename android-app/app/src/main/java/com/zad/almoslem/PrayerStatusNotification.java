@@ -13,6 +13,7 @@ import java.util.Calendar;
 import java.util.Locale;
 import java.util.TimeZone;
 
+// Keeps the next-prayer status visible without a home-screen widget.
 public final class PrayerStatusNotification {
     private static final String CHANNEL_ID = "prayer_status_channel";
     private static final int NOTIFICATION_ID = 74120;
